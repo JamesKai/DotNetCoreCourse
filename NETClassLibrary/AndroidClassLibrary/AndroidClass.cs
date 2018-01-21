@@ -9,5 +9,6 @@ namespace AndroidClassLibrary
     {
         // https://developer.xamarin.com/api/type/System.Environment+SpecialFolder/
         public Environment.SpecialFolder MyProperty { get; set; } = Environment.SpecialFolder.ProgramFilesX86;
+        public Android.Widget.EditText MyEditText { get; set; }
     }
 }

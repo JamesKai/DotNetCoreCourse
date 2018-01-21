@@ -8,7 +8,7 @@ namespace NETCoreConsoleApp
         {
             // 雖然可以將 .NET Framework Class Library 加入到 .NET Core 專案內
             // 可以，當解開底下程式碼，就會有錯誤產生
-            var fooObject = new NETFrameworkClassLibrary.FrameworkClass();
+            //var fooObject = new NETFrameworkClassLibrary.FrameworkClass();
             Console.WriteLine("Hello World!");
             Console.WriteLine("Press any key for continuing...");
             Console.ReadKey();
